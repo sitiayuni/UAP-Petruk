@@ -3,10 +3,8 @@
 
 using namespace std;
 int main(){
-	
-	int a;
-	cin >> a;
-	cout<<"coba ges "<<a;
+	stack <int> koper;
+	int pilihan, jumlah, n;
 	
 	
 	return 0;
