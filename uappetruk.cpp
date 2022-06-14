@@ -4,8 +4,10 @@
 using namespace std;
 int main(){
 	
-	int a= 4;
+	int a;
+	cin >> a;
 	cout<<a;
+	
 	
 	return 0;
 }
