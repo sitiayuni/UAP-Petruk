@@ -6,7 +6,7 @@ int main(){
 	
 	int a;
 	cin >> a;
-	cout<<a;
+	cout<<"coba ges "<<a;
 	
 	
 	return 0;
