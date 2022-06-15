@@ -213,7 +213,11 @@ void batikair(){
 	int jumlah;
 	int np;
 	lambangBatik();
+	
 	setcolor(7);
-	
-	
+	gotoxy (49,9);  cout <<	"<><><><><><><><><><><>";		
+	gotoxy (55,10); cout << "1. ID 6112";
+	gotoxy (55,11); cout << "2. ID 6351";
+	gotoxy (49,12);  cout << "<><><><><><><><><><><>";
+	gotoxy (50,14); cout << "No. Penerbangan : "; cin >> np;
 	
