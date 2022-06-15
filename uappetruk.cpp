@@ -423,6 +423,7 @@ void batikair(){
 void menu(){
  	int Pil;
 	int Pilih;
+	
 	system("cls");
 	setcolor(7);
 	gotoxy(12,2); cout<<"	           ___ ___ _      _   __  __   _ _____   ___   _ _____ _   _  _  ___         ";           
@@ -457,7 +458,7 @@ void menu(){
 			gotoxy (80,17); cout << "      Batik Air      ";
 			gotoxy (80,18); cout << "=====================";
 			gotoxy (49,25); cout << "Klik y Setelah Memilih";
-	    	Pilih = 1;
+	    		Pilih = 1;
 		}
 		if (Pil == 77){
 			gotoxy (20,16); cout << "====================";
@@ -469,7 +470,7 @@ void menu(){
 			setcolor(7);
 			gotoxy (80,18); cout << "====================";
 			gotoxy (49,25); cout << "Klik y Setelah Memilih";
-	    	Pilih = 2;
+	    		Pilih = 2;
 		}
 		if(Pil == 'y'||Pil =='Y'){
 		    if (Pilih==1){
@@ -481,4 +482,3 @@ void menu(){
         	}
     	} 
 }
-	
