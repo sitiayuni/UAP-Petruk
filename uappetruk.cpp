@@ -426,5 +426,17 @@ void menu(){
 			gotoxy (49,25); cout << "Klik y Setelah Memilih";
 	    	Pilih = 1;
 		}
+		if (Pil == 77){
+			gotoxy (20,16); cout << "====================";
+			gotoxy (20,17); cout << "      Lion Air      ";
+			gotoxy (20,18); cout << "====================";
+			gotoxy (80,16); cout << "====================";
+			setcolor(4);
+			gotoxy (80,17); cout << "  --> Batik Air <-- ";
+			setcolor(7);
+			gotoxy (80,18); cout << "====================";
+			gotoxy (49,25); cout << "Klik y Setelah Memilih";
+	    	Pilih = 2;
+		}
 }
 	
