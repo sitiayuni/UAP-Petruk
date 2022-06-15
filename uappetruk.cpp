@@ -197,5 +197,11 @@ void lionair(){
 						cin >> kode;
 						Koperl1.push(kode);
 						system("cls");
-						break;		
+						break;
+					case 2:
+						kode = Koperl1.top();
+					    Koperl1.pop();
+						gotoxy(45,25); cout << "Koper dengan kode " << kode << " telah dikeluarkan" << endl;
+						gotoxy(45,27); system ("pause");
+					    break;
 
