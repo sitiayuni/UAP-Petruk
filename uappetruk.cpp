@@ -3,6 +3,7 @@
 #include <string>
 #include <cstdlib>
 #include <conio.h>
+#include <windows.h>
 
 //Variabel Global
 string mkp, np, tujuan, tgl;
