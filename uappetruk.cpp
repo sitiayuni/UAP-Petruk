@@ -333,4 +333,8 @@ void batikair(){
 					}
 					system ("pause");
 					break;	
+					
+				case 4 :
+					menu();
+					break;
 	
