@@ -283,7 +283,13 @@ void lionair(){
 						}
 					    else{
 					        cout << "Bagasi Masih Kosong";
-						}
+						system ("pause");
+						break;
+						    
+					case 4 :
+						menu();
+						break;	}
+					
 					
 					
 void batikair(){
