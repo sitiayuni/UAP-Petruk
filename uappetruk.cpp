@@ -192,18 +192,30 @@ void lionair(){
 			gotoxy(45,22);  cout << "Masukkan pilihan : ";	
 			cin >> pilihan;
 			switch (pilihan){
+					
 					case 1:
 						gotoxy(45,23); cout << "Masukkan Kode Koper : ";
 						cin >> kode;
 						Koperl1.push(kode);
 						system("cls");
 						break;
+					
 					case 2:
 						kode = Koperl1.top();
-					    Koperl1.pop();
+					        Koperl1.pop();
 						gotoxy(45,25); cout << "Koper dengan kode " << kode << " telah dikeluarkan" << endl;
 						gotoxy(45,27); system ("pause");
-					    break;
+					   	break;
+					case 3:
+					    	system("cls");
+					    	if (!Koperl1.empty()){
+							gotoxy(35,2); cout << "Jumlah Koper yang telah masuk : " << Koperl1.size() << endl;
+							load();
+							displayl1(Koper);
+						}
+						else{
+					        cout << "Bagasi Masih Kosong";
+						}
 
 
 void batikair(){
