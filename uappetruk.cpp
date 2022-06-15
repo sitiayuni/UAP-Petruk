@@ -1,7 +1,5 @@
 #include <iostream>	
 #include <stack>
-#include <string>
-#include <cstdlib>
 #include <conio.h>
 #include <windows.h>
 
