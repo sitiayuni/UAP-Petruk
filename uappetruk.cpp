@@ -3,7 +3,7 @@
 #include <conio.h>
 #include <windows.h>
 
-using namespacse std;
+using namespace std;
 
 string mkp, tgl;
 int kode;
