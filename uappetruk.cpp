@@ -411,5 +411,8 @@ void menu(){
 	gotoxy (80,17); cout << "      Batik Air     ";
 	gotoxy (80,18); cout << "====================";
 	gotoxy (49,25); cout << "Klik y Setelah Memilih";
+	
+	for(int h=0; ; ){
+		Pil = getch();
 }
 	
