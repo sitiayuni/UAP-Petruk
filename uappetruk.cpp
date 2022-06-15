@@ -223,9 +223,11 @@ void lionair(){
 						}
 						system ("pause");
 						break;
+					
 					case 4:
 						menu();
-						break;						
+						break;
+					
 					case 5:
 					    exit(1);
 						break;
@@ -255,6 +257,7 @@ void lionair(){
 			gotoxy(45,21);  cout << "------------------------------";
 			gotoxy(45,22);  cout << "Masukkan pilihan : ";
 			cin >> pilihan;
+				
 			switch (pilihan){
 					
 					case 1:
@@ -262,7 +265,16 @@ void lionair(){
 						cin >> kode;
 						Koperl2.push(kode);
 						system("cls");
-						break;	
+						break;
+					
+					case 2:
+					    	kode = Koperl2.top();
+					    	Koperl2.pop();
+						gotoxy(45,25); cout << "Koper dengan kode " << kode << " telah dikeluarkan" << endl;
+						gotoxy(45,38); system ("pause");
+					    	break;
+					
+					
 
 void batikair(){
 	system("cls");
