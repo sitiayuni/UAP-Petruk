@@ -206,16 +206,31 @@ void lionair(){
 						gotoxy(45,25); cout << "Koper dengan kode " << kode << " telah dikeluarkan" << endl;
 						gotoxy(45,27); system ("pause");
 					   	break;
+					
 					case 3:
 					    	system("cls");
 					    	if (!Koperl1.empty()){
 							gotoxy(35,2); cout << "Jumlah Koper yang telah masuk : " << Koperl1.size() << endl;
 							load();
-							displayl1(Koper);
+							displayl1(Koperl1);
 						}
 						else{
 					        cout << "Bagasi Masih Kosong";
 						}
+						system ("pause");
+						break;
+					case 4:
+						menu();
+						system ("pause");
+						break;						
+					case 5:
+					    exit(1);
+						break;
+				
+					    cout << "Pilihan salah" << endl;
+					}
+				}
+				break;
 
 
 void batikair(){
