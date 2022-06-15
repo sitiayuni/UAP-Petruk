@@ -131,12 +131,14 @@ void displayb2(stack<int> kode){
 			gotoxy(20,8);  cout << "================================================================================";
 			gotoxy(20,9);  cout << "||    Tanggal    ||   Nomor Penerbangan   ||      Tujuan      ||   No.Koper   ||";
 			gotoxy(20,10); cout << "================================================================================";
-			gotoxy(20,11); cout << "||               ||                       ||                  ||              ||";   
-			gotoxy(20,12); cout << "================================================================================";
-	   		gotoxy(24,11); cout << tgl;
-	   		gotoxy(47,11); cout << "ID 6351";
-	   		gotoxy(67,11); cout << "Jakarta (CGK)";
-	   		gotoxy(90,11); cout << kode.top(); kode.pop();
+			for(int i=0; i<Koperb2.size(); i++){
+				gotoxy(20,11+i); cout << "||               ||                       ||                  ||              ||";   
+				gotoxy(20,12+i); cout << "================================================================================";
+				gotoxy(24,11+i); cout << tgl;
+				gotoxy(47,11+i); cout << "ID 6351";
+				gotoxy(67,11+i); cout << "Jakarta (CGK)";
+				gotoxy(90,11+i); cout << kode.top(); kode.pop();
+			}
    	}
 	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
 }
