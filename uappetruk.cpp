@@ -222,7 +222,7 @@ void lionair(){
 							displayl1(Koperl1);
 						}
 						else{
-							cout << "Bagasi Masih Kosong";
+							cout << "Bagasi Masih Kosong" << endl;
 						}
 						system ("pause");
 						break;
@@ -285,7 +285,7 @@ void lionair(){
 								displayl2(Koperl2);
 							}
 							else{
-								cout << "Bagasi Masih Kosong";
+								cout << "Bagasi Masih Kosong" << endl;
 	
 							}
 							system ("pause");
@@ -369,7 +369,7 @@ void batikair(){
 							displayb1(Koperb1);
 						}
 						else{
-							cout << "Bagasi Masih Kosong";
+							cout << "Bagasi Masih Kosong" << endl;
 						}
 						system ("pause");
 						break;
@@ -433,7 +433,7 @@ void batikair(){
 							displayb2(Koperb2);
 						}
 						else{
-							cout << "Bagasi Masih Kosong";
+							cout << "Bagasi Masih Kosong" << endl;
 						}
 						system ("pause");
 						break;	
