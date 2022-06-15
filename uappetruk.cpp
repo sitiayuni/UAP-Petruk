@@ -176,7 +176,6 @@ void lionair(){
 	cin >> np;
 	
 	switch (np){
-	
 		case 1 :
 			while(1){
 			system("cls");
@@ -198,41 +197,40 @@ void lionair(){
 			gotoxy(45,22);  cout << "Masukkan pilihan : ";	
 			cin >> pilihan;
 			switch (pilihan){
+				case 1:
+					gotoxy(45,23); cout << "Masukkan Kode Koper : ";
+					cin >> kode;
+					Koperl1.push(kode);
+					system("cls");
+					break;
 					
-					case 1:
-						gotoxy(45,23); cout << "Masukkan Kode Koper : ";
-						cin >> kode;
-						Koperl1.push(kode);
-						system("cls");
-						break;
+				case 2:
+					kode = Koperl1.top();
+					Koperl1.pop();
+					gotoxy(45,25); cout << "Koper dengan kode " << kode << " telah dikeluarkan" << endl;
+					gotoxy(45,27); system ("pause");
+					break;
 					
-					case 2:
-						kode = Koperl1.top();
-					        Koperl1.pop();
-						gotoxy(45,25); cout << "Koper dengan kode " << kode << " telah dikeluarkan" << endl;
-						gotoxy(45,27); system ("pause");
-					   	break;
-					
-					case 3:
-					    	system("cls");
-					    	if (!Koperl1.empty()){
-							gotoxy(35,2); cout << "Jumlah Koper yang telah masuk : " << Koperl1.size() << endl;
-							load();
-							displayl1(Koperl1);
-						}
-						else{
+				case 3:
+					system("cls");
+					if (!Koperl1.empty()){
+						gotoxy(35,2); cout << "Jumlah Koper yang telah masuk : " << Koperl1.size() << endl;
+						load();
+						displayl1(Koperl1);
+					}
+					else{
 					        cout << "Bagasi Masih Kosong";
-						}
-						system ("pause");
-						break;
+					}
+					system ("pause");
+					break;
 					
-					case 4:
-						menu();
-						break;
+				case 4:
+					menu();
+					break;
 					
-					case 5:
-					    exit(1);
-						break;
+				case 5:
+					exit(1);
+					break;
 				
 					    cout << "Pilihan salah" << endl;
 					}
