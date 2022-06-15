@@ -205,3 +205,15 @@ void lionair(){
 						gotoxy(45,27); system ("pause");
 					    break;
 
+
+void batikair(){
+	system("cls");
+	stack <int> Koper;
+	int pilihan;
+	int jumlah;
+	int np;
+	lambangBatik();
+	setcolor(7);
+	
+	
+	
