@@ -312,5 +312,12 @@ void batikair(){
 					cin >> kode;
 					Koperb2.push(kode);
 					system("cls");
-					break;	
+					break;
+					
+				case 2:
+					kode = Koperb2.top();
+					Koperb2.pop();
+					gotoxy(45,25); cout << "Koper dengan kode " << kode << " telah dikeluarkan" << endl;
+					gotoxy(45,38); system ("pause");
+					break;
 	
