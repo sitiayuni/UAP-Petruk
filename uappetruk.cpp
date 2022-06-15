@@ -16,3 +16,9 @@ void setcolor (unsigned short color){
   SetConsoleTextAttribute(hCon, color);
 }
 
+COORD coord = {X:0, Y:0};
+void gotoxy(int x, int y){
+	coord.X = x;
+	coord.Y = y;
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
+}
