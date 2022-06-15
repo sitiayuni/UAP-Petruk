@@ -232,15 +232,16 @@ void lionair(){
 					}
 				}
 				break;
-		case 2 :
-			while(1){
-			system("cls");
-			lambangLion();
-			setcolor(7);
-			gotoxy (45,7);  cout << "No. Penerbangan 	 : JT 123";
-			gotoxy (45,8);  cout << "Tujuan 		 : Jakarta (CGK)";
-			gotoxy (45,9);  cout << "Waktu Keberangkatan : 14.30 WIB";
-
+			
+					case 2 :
+						while(1){
+						system("cls");
+						lambangLion();
+						setcolor(7);
+						gotoxy (45,7);  cout << "No. Penerbangan 	 : JT 123";
+						gotoxy (45,8);  cout << "Tujuan 		 : Jakarta (CGK)";
+						gotoxy (45,9);  cout << "Waktu Keberangkatan : 14.30 WIB";
+						gotoxy(45,12);  cout << "------------------------------";
 
 void batikair(){
 	system("cls");
