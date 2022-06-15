@@ -292,8 +292,13 @@ void lionair(){
 						    
 					case 5:
 					    	exit(1);
-						break;	    
-					
+						break;
+						    
+					default:
+					    cout << "Pilihan salah" << endl;
+				}	
+			}
+			break;
 					
 					
 void batikair(){
