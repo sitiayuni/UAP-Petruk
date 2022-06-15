@@ -171,7 +171,7 @@ void lionair(){
 	gotoxy (49,9);  cout <<	"<><><><><><><><><><><>";		
 	gotoxy (55,10); cout << "1. JT 175";
 	gotoxy (55,11); cout << "2. JT 123";
-	gotoxy (49,12);  cout <<	"<><><><><><><><><><><>";
+	gotoxy (49,12); cout <<	"<><><><><><><><><><><>";
 	gotoxy (50,14); cout << "No. Penerbangan : "; 
 	cin >> np;
 	
@@ -184,7 +184,7 @@ void lionair(){
 				setcolor(7);
 				gotoxy (45,8);  cout << "No. Penerbangan 	 : JT 175";
 				gotoxy (45,9);  cout << "Tujuan 		 : Jakarta (CGK)";
-				gotoxy (45,10);  cout << "Waktu Keberangkatan : 11.30 WIB";
+				gotoxy (45,10); cout << "Waktu Keberangkatan     : 11.30 WIB";
 				gotoxy(45,12);  cout << "------------------------------";
 				gotoxy(45,13);  cout << "|   Program Bagasi Pesawat   |";
 				gotoxy(45,14);  cout << "------------------------------";
@@ -246,7 +246,7 @@ void lionair(){
 				setcolor(7);
 				gotoxy (45,7);  cout << "No. Penerbangan 	 : JT 123";
 				gotoxy (45,8);  cout << "Tujuan 		 : Jakarta (CGK)";
-				gotoxy (45,9);  cout << "Waktu Keberangkatan : 14.30 WIB";
+				gotoxy (45,9);  cout << "Waktu Keberangkatan     : 14.30 WIB";
 				gotoxy(45,12);  cout << "------------------------------";
 				gotoxy(45,13);  cout << "|   Program Bagasi Pesawat   |";
 				gotoxy(45,14);  cout << "------------------------------";
@@ -505,7 +505,6 @@ void menu(){
 			gotoxy (49,25); cout << "Klik y Setelah Memilih";
 	    		Pilih = 2;
 		}
-		
 		if(Pil == 'y'||Pil =='Y'){
 			if (Pilih==1){
 		    		lionair();				
