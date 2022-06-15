@@ -47,7 +47,7 @@ int main(){
 	setcolor(7);
 	gotoxy (44,20); cout << "Tanggal Penerbangan : ";
 	getline(cin,tgl);
-    
+	menu();
 	return 0;
 }
 
