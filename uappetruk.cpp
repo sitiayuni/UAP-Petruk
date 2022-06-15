@@ -12,8 +12,8 @@ stack <int> Koperb1;
 stack <int> Koperb2;
 
 void setcolor (unsigned short color){
-  HANDLE hCon= GetStdHandle (STD_OUTPUT_HANDLE);
-  SetConsoleTextAttribute(hCon, color);
+  	HANDLE hCon= GetStdHandle (STD_OUTPUT_HANDLE);
+  	SetConsoleTextAttribute(hCon, color);
 }
 
 COORD coord = {X:0, Y:0};
@@ -48,6 +48,7 @@ int main(){
 	gotoxy (44,20); cout << "Tanggal Penerbangan : ";
 	getline(cin,tgl);
 	menu();
+	
 	return 0;
 }
 
