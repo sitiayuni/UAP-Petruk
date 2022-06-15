@@ -168,7 +168,9 @@ void lionair(){
 	gotoxy (55,10); cout << "1. JT 175";
 	gotoxy (55,11); cout << "2. JT 123";
 	gotoxy (49,12);  cout <<	"<><><><><><><><><><><>";
-	gotoxy (50,14); cout << "No. Penerbangan : "; cin >> np;
+	gotoxy (50,14); cout << "No. Penerbangan : "; 
+	cin >> np;
+	
 	switch (np){
 	
 		case 1 :
@@ -221,7 +223,6 @@ void lionair(){
 						break;
 					case 4:
 						menu();
-						system ("pause");
 						break;						
 					case 5:
 					    exit(1);
@@ -231,6 +232,14 @@ void lionair(){
 					}
 				}
 				break;
+		case 2 :
+			while(1){
+			system("cls");
+			lambangLion();
+			setcolor(7);
+			gotoxy (45,7);  cout << "No. Penerbangan 	 : JT 123";
+			gotoxy (45,8);  cout << "Tujuan 		 : Jakarta (CGK)";
+			gotoxy (45,9);  cout << "Waktu Keberangkatan : 14.30 WIB";
 
 
 void batikair(){
