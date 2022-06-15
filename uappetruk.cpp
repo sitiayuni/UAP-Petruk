@@ -156,3 +156,17 @@ void load(){
 		system("cls");
 	}
 }
+
+void lionair(){
+	system("cls");
+	stack<int> Koper;
+	int pilihan,jumlah;
+	int np;
+	lambangLion();
+	setcolor(7);
+	gotoxy (49,9);  cout <<	"<><><><><><><><><><><>";		
+	gotoxy (55,10); cout << "1. JT 175";
+	gotoxy (55,11); cout << "2. JT 123";
+	gotoxy (49,12);  cout <<	"<><><><><><><><><><><>";
+	gotoxy (50,14); cout << "No. Penerbangan : "; cin >> np;
+
