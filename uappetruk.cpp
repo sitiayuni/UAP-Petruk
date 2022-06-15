@@ -337,4 +337,8 @@ void batikair(){
 				case 4 :
 					menu();
 					break;
+					
+				case 5:
+					exit(1);
+					break;
 	
