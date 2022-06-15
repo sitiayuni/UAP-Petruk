@@ -1,9 +1,10 @@
-#include <iostream>
+#include <iostream>	
 #include <stack>
 #include <string>
 #include <cstdlib>
 #include <conio.h>
 
+//Variabel Global
 string mkp, np, tujuan, tgl;
 
 using namespace std;
