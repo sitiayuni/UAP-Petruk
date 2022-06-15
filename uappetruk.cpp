@@ -2,17 +2,11 @@
 #include <stack>
 #include <conio.h>
 #include <windows.h>
+using namespacse std;
 
-//Variabel Global
-string mkp, np, tujuan, tgl;
-
-using namespace std;
-int main(){
-	stack <int> koper;
-	int pilihan, jumlah, n;
-	
-	cin >> pilihan;
-	cin >> jumlah;
-	
-	return 0;
-}
+string mkp, tgl;
+int kode;
+stack <int> Koperl1;
+stack <int> Koperl2;
+stack <int> Koperb1;
+stack <int> Koperb2;
