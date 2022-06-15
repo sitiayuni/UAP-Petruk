@@ -47,7 +47,6 @@ int main(){
 	setcolor(7);
 	gotoxy (44,20); cout << "Tanggal Penerbangan : ";
 	getline(cin,tgl);
-    	//menu();
     
 	return 0;
 }
@@ -58,4 +57,12 @@ void lambangLion (){
 	gotoxy (35,3); cout<<" | |    |_ _|  / _ \\  | \\| |     /_\\   |_ _| | _ \\";
 	gotoxy (35,4); cout<<" | |__   | |  | (_) | | .` |    / _ \\   | |  |   /";
 	gotoxy (35,5); cout<<" |____| |___|  \\___/  |_|\\_|   /_/ \\_\\ |___| |_|_\\";
+}
+
+void lambangBatik (){
+	setcolor(4);
+	gotoxy (32,2); cout<<"  ___     _     _____   ___   _  __      _     ___   ___"; 
+	gotoxy (32,3); cout<<" | _ )   /_\\   |_   _| |_ _| | |/ /     /_\\   |_ _| | _ \\";
+	gotoxy (32,4); cout<<" | _ \\  / _ \\    | |    | |  | ' <     / _ \\   | |  |   /";
+	gotoxy (32,5); cout<<" |___/ /_/ \\_\\   |_|   |___| |_|\\_\\   /_/ \\_\\ |___| |_|_\\";
 }
