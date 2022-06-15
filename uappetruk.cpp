@@ -482,6 +482,8 @@ void menu(){
 	
 	for(int h=0; ; ){
 		Pil = getch();
+		
+		//Klik kursor kiri
 		if (Pil == 75){
 			gotoxy (20,16); cout << "====================";
 			setcolor(4);
@@ -495,6 +497,7 @@ void menu(){
 	    		Pilih = 1;
 		}
 		
+		//Klik kursor kanan
 		if (Pil == 77){
 			gotoxy (20,16); cout << "====================";
 			gotoxy (20,17); cout << "      Lion Air      ";
