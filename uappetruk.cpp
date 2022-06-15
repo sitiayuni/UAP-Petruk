@@ -178,64 +178,64 @@ void lionair(){
 	switch (np){
 		case 1 :
 			while(1){
-			system("cls");
-			lambangLion();
-			setcolor(7);
-			gotoxy (45,8);  cout << "No. Penerbangan 	 : JT 175";
-			gotoxy (45,9);  cout << "Tujuan 		 : Jakarta (CGK)";
-			gotoxy (45,10);  cout << "Waktu Keberangkatan : 11.30 WIB";
-			gotoxy(45,12);  cout << "------------------------------";
-			gotoxy(45,13);  cout << "|   Program Bagasi Pesawat   |";
-			gotoxy(45,14);  cout << "------------------------------";
-			gotoxy(45,15);  cout << "------------------------------";
-			gotoxy(45,16);  cout << "| 1. Masukkan Koper          |";
-			gotoxy(45,17);  cout << "| 2. Keluarkan Koper         |";
-			gotoxy(45,18);  cout << "| 3. Tampilkan Jumlah Koper  |";
-			gotoxy(45,19);  cout << "| 4. Selesai                 |";
-			gotoxy(45,20);  cout << "| 5. Keluar                  |";
-			gotoxy(45,21);  cout << "------------------------------";
-			gotoxy(45,22);  cout << "Masukkan pilihan : ";	
-			cin >> pilihan;
-			switch (pilihan){
-				case 1:
-					gotoxy(45,23); cout << "Masukkan Kode Koper : ";
-					cin >> kode;
-					Koperl1.push(kode);
-					system("cls");
-					break;
-					
-				case 2:
-					kode = Koperl1.top();
-					Koperl1.pop();
-					gotoxy(45,25); cout << "Koper dengan kode " << kode << " telah dikeluarkan" << endl;
-					gotoxy(45,27); system ("pause");
-					break;
-					
-				case 3:
-					system("cls");
-					if (!Koperl1.empty()){
-						gotoxy(35,2); cout << "Jumlah Koper yang telah masuk : " << Koperl1.size() << endl;
-						load();
-						displayl1(Koperl1);
-					}
-					else{
-					        cout << "Bagasi Masih Kosong";
-					}
-					system ("pause");
-					break;
-					
-				case 4:
-					menu();
-					break;
-					
-				case 5:
-					exit(1);
-					break;
-				
-					    cout << "Pilihan salah" << endl;
-					}
+				system("cls");
+				lambangLion();
+				setcolor(7);
+				gotoxy (45,8);  cout << "No. Penerbangan 	 : JT 175";
+				gotoxy (45,9);  cout << "Tujuan 		 : Jakarta (CGK)";
+				gotoxy (45,10);  cout << "Waktu Keberangkatan : 11.30 WIB";
+				gotoxy(45,12);  cout << "------------------------------";
+				gotoxy(45,13);  cout << "|   Program Bagasi Pesawat   |";
+				gotoxy(45,14);  cout << "------------------------------";
+				gotoxy(45,15);  cout << "------------------------------";
+				gotoxy(45,16);  cout << "| 1. Masukkan Koper          |";
+				gotoxy(45,17);  cout << "| 2. Keluarkan Koper         |";
+				gotoxy(45,18);  cout << "| 3. Tampilkan Jumlah Koper  |";
+				gotoxy(45,19);  cout << "| 4. Selesai                 |";
+				gotoxy(45,20);  cout << "| 5. Keluar                  |";
+				gotoxy(45,21);  cout << "------------------------------";
+				gotoxy(45,22);  cout << "Masukkan pilihan : ";	
+				cin >> pilihan;
+				switch (pilihan){
+					case 1:
+						gotoxy(45,23); cout << "Masukkan Kode Koper : ";
+						cin >> kode;
+						Koperl1.push(kode);
+						system("cls");
+						break;
+
+					case 2:
+						kode = Koperl1.top();
+						Koperl1.pop();
+						gotoxy(45,25); cout << "Koper dengan kode " << kode << " telah dikeluarkan" << endl;
+						gotoxy(45,27); system ("pause");
+						break;
+
+					case 3:
+						system("cls");
+						if (!Koperl1.empty()){
+							gotoxy(35,2); cout << "Jumlah Koper yang telah masuk : " << Koperl1.size() << endl;
+							load();
+							displayl1(Koperl1);
+						}
+						else{
+							cout << "Bagasi Masih Kosong";
+						}
+						system ("pause");
+						break;
+
+					case 4:
+						menu();
+						break;
+
+					case 5:
+						exit(1);
+						break;
+					defalut:
+						cout << "Pilihan salah" << endl;
 				}
-				break;
+			}
+			break;
 			
 		case 2 :
 			while(1){
