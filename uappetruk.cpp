@@ -235,26 +235,34 @@ void lionair(){
 				}
 				break;
 			
-					case 2 :
-						while(1){
+		case 2 :
+			while(1){
+			system("cls");
+			lambangLion();
+			setcolor(7);
+			gotoxy (45,7);  cout << "No. Penerbangan 	 : JT 123";
+			gotoxy (45,8);  cout << "Tujuan 		 : Jakarta (CGK)";
+			gotoxy (45,9);  cout << "Waktu Keberangkatan : 14.30 WIB";
+			gotoxy(45,12);  cout << "------------------------------";
+			gotoxy(45,13);  cout << "|   Program Bagasi Pesawat   |";
+			gotoxy(45,14);  cout << "------------------------------";
+			gotoxy(45,15);  cout << "------------------------------";
+			gotoxy(45,16);  cout << "| 1. Masukkan Koper          |";
+			gotoxy(45,17);  cout << "| 2. Keluarkan Koper      	  |";
+			gotoxy(45,18);  cout << "| 3. Tampilkan Jumlah Koper  |";
+			gotoxy(45,19);  cout << "| 4. Selesai                 |";
+			gotoxy(45,20);  cout << "| 5. Keluar                  |";
+			gotoxy(45,21);  cout << "------------------------------";
+			gotoxy(45,22);  cout << "Masukkan pilihan : ";
+			cin >> pilihan;
+			switch (pilihan){
+					
+					case 1:
+						gotoxy(45,23); cout << "Masukkan Kode Koper : ";
+						cin >> kode;
+						Koperl2.push(kode);
 						system("cls");
-						lambangLion();
-						setcolor(7);
-						gotoxy (45,7);  cout << "No. Penerbangan 	 : JT 123";
-						gotoxy (45,8);  cout << "Tujuan 		 : Jakarta (CGK)";
-						gotoxy (45,9);  cout << "Waktu Keberangkatan : 14.30 WIB";
-						gotoxy(45,12);  cout << "------------------------------";
-						gotoxy(45,13);  cout << "|   Program Bagasi Pesawat   |";
-						gotoxy(45,14);  cout << "------------------------------";
-						gotoxy(45,15);  cout << "------------------------------";
-						gotoxy(45,16);  cout << "| 1. Masukkan Koper          |";
-						gotoxy(45,17);  cout << "| 2. Keluarkan Koper      	  |";
-						gotoxy(45,18);  cout << "| 3. Tampilkan Jumlah Koper  |";
-						gotoxy(45,19);  cout << "| 4. Selesai                 |";
-						gotoxy(45,20);  cout << "| 5. Keluar                  |";
-						gotoxy(45,21);  cout << "------------------------------";
-						gotoxy(45,22);  cout << "Masukkan pilihan : ";
-						cin >> pilihan;	
+						break;	
 
 void batikair(){
 	system("cls");
