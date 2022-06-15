@@ -444,8 +444,8 @@ void menu(){
 			}
 			else if (Pilih==2){
 				batikair();
+        		}
         	}
-        }
-    } 
+    	} 
 }
 	
