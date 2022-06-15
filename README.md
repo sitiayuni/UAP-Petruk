@@ -5,8 +5,11 @@ Projek : Program Sistem Bagasi Pesawat pada Maskapai Lion Group di Bandara Inter
 Nama Anggota Kelompok :
 
 > Cindy Loria         (2117051004)
+
 > Shafa Auliya        (2117051042)
+
 > Siti Ayuni          (2117051068)
+
 > Jihan Haya Mufialdo (2117051095)
 
 
