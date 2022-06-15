@@ -14,7 +14,7 @@ stack <int> Koperb2;
 
 void setcolor (unsigned short color){
   	HANDLE hCon= GetStdHandle (STD_OUTPUT_HANDLE);
-  	SetConsoleTextAttribute(hCon, color);
+  	SetConsoleTextAttribute (hCon, color);
 }
 
 COORD coord = {X:0, Y:0};
@@ -275,7 +275,6 @@ void lionair(){
 					    	break;
 					
 					
-
 void batikair(){
 	system("cls");
 	stack <int> Koper;
@@ -439,7 +438,7 @@ void menu(){
 	gotoxy(10,10); cout<<"|___/___| |_|  |_/_/ \\_\\___/_|\\_\\/_/ \\_\\_|/_/ \\_\\___| |____|___\\___/|_|\\_|  \\___|_|_\\\\___/ \\___/|_| "; 
 	setcolor(7);
 	gotoxy (20,16); cout << "====================";
-	gotoxy (20,17); cout << "      Lion Air     ";
+	gotoxy (20,17); cout << "      Lion Air      ";
 	gotoxy (20,18); cout << "====================";
 	gotoxy (80,16); cout << "====================";
 	gotoxy (80,17); cout << "      Batik Air     ";
