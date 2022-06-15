@@ -273,6 +273,11 @@ void lionair(){
 						gotoxy(45,25); cout << "Koper dengan kode " << kode << " telah dikeluarkan" << endl;
 						gotoxy(45,38); system ("pause");
 					    	break;
+					case 3:
+					    system("cls");
+					    if (!Koperl2.empty()){
+							gotoxy(35,2); cout << "Jumlah Koper yang telah masuk : " << Koperl2.size() << endl;
+							load();
 					
 					
 void batikair(){
