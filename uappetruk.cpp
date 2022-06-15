@@ -217,8 +217,8 @@ void lionair(){
 					case 3:
 						system("cls");
 						if (!Koperl1.empty()){
-							gotoxy(35,2); cout << "Jumlah Koper yang telah masuk : " << Koperl1.size() << endl;
 							load();
+							gotoxy(45,7); cout << "Jumlah Koper yang telah masuk : " << Koperl1.size() << endl;
 							displayl1(Koperl1);
 						}
 						else{
@@ -280,8 +280,8 @@ void lionair(){
 						case 3:
 							system("cls");
 							if (!Koperl2.empty()){
-								gotoxy(35,2); cout << "Jumlah Koper yang telah masuk : " << Koperl2.size() << endl;
 								load();
+								gotoxy(45,7); cout << "Jumlah Koper yang telah masuk : " << Koperl2.size() << endl;
 								displayl2(Koperl2);
 							}
 							else{
@@ -364,8 +364,8 @@ void batikair(){
 					case 3:
 						system("cls");
 						if (!Koperb1.empty()){
-							gotoxy(35,2); cout << "Jumlah Koper yang telah masuk : " << Koperb1.size() << endl;
 							load();
+							gotoxy(45,7); cout << "Jumlah Koper yang telah masuk : " << Koperb1.size() << endl;
 							displayb1(Koperb1);
 						}
 						else{
@@ -428,8 +428,8 @@ void batikair(){
 					case 3:
 						system("cls");
 						if (!Koperb2.empty()){
-							gotoxy(35,2); cout << "Jumlah Koper yang telah masuk : " << Koperb2.size() << endl;
 							load();
+							gotoxy(45,7); cout << "Jumlah Koper yang telah masuk : " << Koperb2.size() << endl;
 							displayb2(Koperb2);
 						}
 						else{
