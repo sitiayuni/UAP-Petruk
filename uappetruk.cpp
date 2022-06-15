@@ -1,10 +1,11 @@
-#include <iostream>	
-#include <stack>
-#include <conio.h>
-#include <windows.h>
+#include <iostream>	//Pada program ini digunakan untuk input dan output
+#include <stack>	//Pada program ini digunakan untuk menjalankan fungsi container stack
+#include <conio.h>	//Pada program ini digunakan untuk fungsi getch()
+#include <windows.h>	//Pada program ini digunakan untuk memberikan warna setcolor(), menentukan durasi waktu Sleep (), menentuka kolom dan baris gotoxy ( , )
 
 using namespace std;
 
+//Variabel Global
 string mkp, tgl;
 int kode;
 stack <int> Koperl1;
