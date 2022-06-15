@@ -438,5 +438,14 @@ void menu(){
 			gotoxy (49,25); cout << "Klik y Setelah Memilih";
 	    	Pilih = 2;
 		}
+		if(Pil == 'y'||Pil =='Y'){
+		    if (Pilih==1){
+		    	lionair();				
+			}
+			else if (Pilih==2){
+				batikair();
+        	}
+        }
+    } 
 }
 	
