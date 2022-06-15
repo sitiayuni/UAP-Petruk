@@ -83,3 +83,15 @@ void displayl1(stack<int> kode){
    	}
 	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
 }
+
+void displayl2(stack<int> kode){
+	while (!kode.empty()){
+		lambangLion();
+			setcolor(7);
+	   		gotoxy(24,11); cout << tgl;
+	   		gotoxy(47,11); cout << "JT 123";
+	   		gotoxy(67,11); cout << "Jakarta (CGK)";
+	   		gotoxy(90,11); cout << kode.top(); kode.pop();
+   	}
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+}
