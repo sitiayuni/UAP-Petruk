@@ -190,4 +190,12 @@ void lionair(){
 			gotoxy(45,20);  cout << "| 5. Keluar                  |";
 			gotoxy(45,21);  cout << "------------------------------";
 			gotoxy(45,22);  cout << "Masukkan pilihan : ";	
+			cin >> pilihan;
+			switch (pilihan){
+					case 1:
+						gotoxy(45,23); cout << "Masukkan Kode Koper : ";
+						cin >> kode;
+						Koperl1.push(kode);
+						system("cls");
+						break;		
 
