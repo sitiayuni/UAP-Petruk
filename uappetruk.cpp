@@ -66,3 +66,15 @@ void lambangBatik (){
 	gotoxy (32,4); cout<<" | _ \\  / _ \\    | |    | |  | ' <     / _ \\   | |  |   /";
 	gotoxy (32,5); cout<<" |___/ /_/ \\_\\   |_|   |___| |_|\\_\\   /_/ \\_\\ |___| |_|_\\";
 }
+
+void displayl1(stack<int> kode){
+	while (!kode.empty()){
+		lambangLion();
+			setcolor(7);
+	   		gotoxy(24,11); cout << tgl;
+	   		gotoxy(47,11); cout << "JT 175";
+	   		gotoxy(67,11); cout << "Jakarta (CGK)";
+	   		gotoxy(90,11); cout << kode.top(); kode.pop();
+   	}
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+}
