@@ -142,3 +142,17 @@ void displayb2(stack<int> kode){
    	}
 	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
 }
+
+void load(){                                                                 
+	for (int x=3; x>=0; x--){
+		gotoxy(50,13); cout<<"LOADING.";
+		Sleep(100);
+		system("cls");
+		gotoxy(50,13); cout<<"LOADING..";
+		Sleep(100);
+		system("cls");
+		gotoxy(50,13); cout<<"LOADING...";
+		Sleep(100);
+		system("cls");
+	}
+}
