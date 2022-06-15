@@ -320,4 +320,17 @@ void batikair(){
 					gotoxy(45,25); cout << "Koper dengan kode " << kode << " telah dikeluarkan" << endl;
 					gotoxy(45,38); system ("pause");
 					break;
+					
+				case 3:
+					system("cls");
+					if (!Koperb2.empty()){
+						gotoxy(35,2); cout << "Jumlah Koper yang telah masuk : " << Koperb2.size() << endl;
+						load();
+						displayb2(Koperb2);
+					}
+					else{
+						cout << "Bagasi Masih Kosong";
+					}
+					system ("pause");
+					break;	
 	
