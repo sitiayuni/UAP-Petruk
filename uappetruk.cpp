@@ -274,4 +274,14 @@ void batikair(){
 				case 4:
 					menu();
 					break;
+					
+				case 5:
+					exit(1);
+					break;
+					
+				default:
+					cout << "Pilihan salah" << endl;
+			}
+		}
+		break;
 	
