@@ -1,6 +1,6 @@
 # UAP-Pemrograman Terstruktur
 
-Program Sistem Bagasi Pesawat
+Projek : Program Sistem Bagasi Pesawat pada Maskapai Lion Group di Bandara International Radin Inten II.
   
 Nama Anggota Kelompok :
 1. Cindy Loria (2117051004)
