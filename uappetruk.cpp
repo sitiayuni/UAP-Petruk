@@ -288,7 +288,11 @@ void lionair(){
 						    
 					case 4 :
 						menu();
-						break;	}
+						break;
+						    
+					case 5:
+					    	exit(1);
+						break;	    
 					
 					
 					
