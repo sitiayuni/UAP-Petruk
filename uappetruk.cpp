@@ -246,7 +246,7 @@ void lionair(){
 				setcolor(7);
 				gotoxy (45,7);  cout << "No. Penerbangan 	 : JT 123";
 				gotoxy (45,8);  cout << "Tujuan 		 : Jakarta (CGK)";
-				gotoxy (45,9);  cout << "Waktu Keberangkatan     : 14.30 WIB";
+				gotoxy (45,9);  cout << "Waktu Keberangkatan : 14.30 WIB";
 				gotoxy(45,12);  cout << "------------------------------";
 				gotoxy(45,13);  cout << "|   Program Bagasi Pesawat   |";
 				gotoxy(45,14);  cout << "------------------------------";
