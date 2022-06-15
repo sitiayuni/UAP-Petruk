@@ -286,8 +286,9 @@ void lionair(){
 							}
 							else{
 								cout << "Bagasi Masih Kosong";
-								system ("pause");
+	
 							}
+							system ("pause");
 							break;
 
 						case 4 :
